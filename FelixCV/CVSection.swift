@@ -1,0 +1,35 @@
+//
+//  SectionHeader.swift
+//  FelixCV
+//
+//  Created by Felix Parey on 01/06/25.
+//
+
+import SwiftUI
+
+struct CVSection<Content: View>: View {
+    let content: Content
+    let sectionTitle: String
+    
+    init(_ sectionTitle: String, @ViewBuilder content: () -> Content) {
+        self.sectionTitle = sectionTitle
+        self.content = content()
+    }
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(sectionTitle)
+                .font(.title3)
+                .fontWeight(.bold)
+                .padding(.bottom, 2.5)
+            content
+        }
+    }
+}
+
+#Preview {
+    CVSection("Education") {
+        Text("This is a section in my CV.")
+    }
+        .frame(width: 400, height: 400)
+}
