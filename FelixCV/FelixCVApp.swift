@@ -11,7 +11,7 @@ import SwiftUI
 struct FelixCVApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExportCVView()
         }
     }
 }

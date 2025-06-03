@@ -33,9 +33,11 @@ struct ContentView: View {
             Divider()
             HStack {
                 VStack(alignment: .leading, spacing: 30) {
+                    
                     CVSection("Contact Information") {
+                        Text("Ciao Sara")
                         Label {
-                            Text(verbatim: "linkedin.com/in/felix-parey/")
+                            Text("linkedin.com/in/felix-parey/")
                         } icon: {
                             Image(systemName: "lightbulb")
                                 .frame(width: 20, alignment: .leading)
@@ -59,10 +61,7 @@ struct ContentView: View {
                     }
                     Spacer()
                 }
-                .containerRelativeFrame(.horizontal) { size, _ in
-                    size * 0.35
-                }
-                
+                .frame(width: 214)
                 Divider()
                 VStack {
                     
@@ -70,11 +69,9 @@ struct ContentView: View {
                 Spacer()
             }
         }
-        .overlay(alignment: .bottom) {
-            Button("Download PDF") {
-                print("Download PDF tapped")
-            }
-        }
+//        .overlay(alignment: .bottom) {
+//            ShareLink("Download PDF", item: render())
+//        }
         .padding()
         .frame(width: 612, height: 792, alignment: .top)
     }
