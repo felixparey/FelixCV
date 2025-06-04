@@ -10,7 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        HStack(spacing: 10) {
+        ZStack(alignment: .leading) {
+            VStack(alignment: .leading) {
+                Text("iOS Developer")
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.secondary)
+                    .padding(.bottom, 10)
+                Text("Passionate iOS developer trained at the Apple Developer Academy in Naples with a focus on SwiftUI. Winner of the 2025 Swift Student Challenge and developer of a published App Store app. Experienced in building intuitive, user-centered apps with modern Apple frameworks.")
+            }
+            .safeAreaPadding(.leading, 190)
             VStack(alignment: .leading, spacing: 20) {
                 Image(.felix)
                     .resizable()
@@ -64,16 +72,23 @@ struct ContentView: View {
                 Spacer()
             }
             .padding(10)
-            .background(.gray.opacity(0.2), in: .rect(cornerRadius: 15))
-            .frame(width: 170)
-            
-            VStack(alignment: .leading) {
-                Text("iOS Developer")
-                    .fontWeight(.semibold)
-                    .foregroundStyle(.secondary)
-                    .padding(.bottom, 10)
-                Text("Passionate iOS developer trained at the Apple Developer Academy in Naples with a focus on SwiftUI. Winner of the 2025 Swift Student Challenge and developer of a published App Store app. Experienced in building intuitive, user-centered apps with modern Apple frameworks.")
+            .background {
+                ZStack(alignment: .topLeading) {
+                    VStack {
+                        Circle().foregroundStyle(.blue.gradient.opacity(0.5))
+                        Spacer()
+                        Circle().foregroundStyle(.blue.gradient.opacity(0.5))
+                            .frame(width: 75, height: 75)
+                            .offset(x: 15)
+                    }
+                    RoundedRectangle(cornerRadius: 15)
+                        .fill(.ultraThinMaterial)
+                        .stroke(LinearGradient(colors: [.clear, .white.opacity(0.1)], startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 1)
+                        .shadow(color: .black.opacity(0.2), radius: 5, x: 2, y: 2)
+                }
+
             }
+            .frame(width: 170)
         }
         .padding()
         .frame(width: 612, height: 792, alignment: .top)
@@ -83,3 +98,8 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+#Preview {
+     ContentView()
+        .preferredColorScheme(.dark)
+ }
