@@ -46,8 +46,10 @@ struct ContentView: View {
                 }
                 
                 CVSection("Achievements") {
-                    Text("Swift Student Challenge\nWinner (2025)")
-                        .font(.subheadline)
+                    VStack(alignment: .leading, spacing: 5) {
+                        Text("Swift Student Challenge\nWinner (2025)")
+                        Text("App released on the App Store")
+                    }
                 }
                 CVSection("Interests") {
                     Group {
@@ -64,9 +66,7 @@ struct ContentView: View {
             .padding(10)
             .background(.gray.opacity(0.2), in: .rect(cornerRadius: 15))
             .frame(width: 170)
-            VStack {
-                
-            }
+            
             VStack(alignment: .leading) {
                 Text("iOS Developer")
                     .fontWeight(.semibold)
