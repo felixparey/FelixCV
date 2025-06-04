@@ -9,69 +9,57 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HStack {
-                Rectangle()
-                    .frame(width: 125, height: 150)
-                    .foregroundStyle(.tertiary)
-                    .overlay {
-                        Image(systemName: "person.fill")
-                            .font(.largeTitle)
-                            .foregroundStyle(.gray.opacity(0.8))
-                    }
+               
+            HStack(spacing: 10) {
                 VStack(alignment: .leading) {
+                    Image(.felix)
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(.rect(cornerRadius: 12.5))
+                        
                     Text("Felix Parey")
                         .font(.title)
                         .fontWeight(.bold)
-                    Text("iOS Developer")
-                        .fontWeight(.semibold)
-                        .foregroundStyle(.secondary)
-                        .padding(.bottom, 10)
-                    Text("Passionate iOS developer trained at the Apple Developer Academy in Naples with a focus on SwiftUI. Winner of the 2025 Swift Student Challenge and developer of a published App Store app. Experienced in building intuitive, user-centered apps with modern Apple frameworks.")
-                }
-            }
-            Divider()
-            HStack {
-                VStack(alignment: .leading, spacing: 30) {
+                        .padding(.bottom, 5)
                     
-                    CVSection("Contact Information") {
-                        Text("Ciao Sara")
-                        Label {
-                            Text("linkedin.com/in/felix-parey/")
-                        } icon: {
-                            Image(systemName: "lightbulb")
-                                .frame(width: 20, alignment: .leading)
+                    CVSection("Information") {
+                        Group {
+                            VStack(alignment: .leading, spacing: 5) {
+                                Label("20 years old (2005)", systemImage: "calendar")
+                                Label("+49 174 5467901", systemImage: "phone.fill")
+                                Label {
+                                    Text(verbatim: "felix.parey@icloud.com")
+                                } icon: {
+                                    Image(systemName: "envelope.fill")
+                                }
+                            }
+                            .padding(.bottom, 8)
+                            Divider()
+                            .padding(.bottom, 8)
+                            VStack(alignment: .leading, spacing: 5) {
+                                Text("🇩🇪 **German** • Native")
+                                Text("🇺🇸 **English** • C1")
+                                Text("🇮🇹 **Italian** • B2")
+                            }
                         }
-                        Label {
-                            Text("+49 174 5467901")
-                        } icon: {
-                            Image(systemName: "phone")
-                                .frame(width: 20, alignment: .leading)
-                        }
-                        Label {
-                            Text(verbatim: "felix.parey@icloud.com")
-                        } icon: {
-                            Image(systemName: "envelope")
-                                .frame(width: 20, alignment: .leading)
-                        }
-                    }
-                    CVSection("Education") {
-                        Text("Apple Developer Academy, Naples")
-                            .fontWeight(.medium)
+                        .font(.subheadline)
                     }
                     Spacer()
                 }
-                .frame(width: 214)
-                Divider()
+                .padding(10)
+                .background(.gray.opacity(0.2), in: .rect(cornerRadius: 15))
+                .frame(width: 170)
                 VStack {
                     
                 }
-                Spacer()
+                VStack(alignment: .leading) {
+                        Text("iOS Developer")
+                            .fontWeight(.semibold)
+                            .foregroundStyle(.secondary)
+                            .padding(.bottom, 10)
+                        Text("Passionate iOS developer trained at the Apple Developer Academy in Naples with a focus on SwiftUI. Winner of the 2025 Swift Student Challenge and developer of a published App Store app. Experienced in building intuitive, user-centered apps with modern Apple frameworks.")
+                    }
             }
-        }
-//        .overlay(alignment: .bottom) {
-//            ShareLink("Download PDF", item: render())
-//        }
         .padding()
         .frame(width: 612, height: 792, alignment: .top)
     }

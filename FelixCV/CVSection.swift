@@ -19,7 +19,9 @@ struct CVSection<Content: View>: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(sectionTitle)
-                .font(.title3)
+                .textCase(.uppercase)
+                .foregroundStyle(.secondary)
+                .font(.subheadline)
                 .fontWeight(.bold)
                 .padding(.bottom, 2.5)
             content
@@ -32,4 +34,8 @@ struct CVSection<Content: View>: View {
         Text("This is a section in my CV.")
     }
         .frame(width: 400, height: 400)
+}
+
+#Preview {
+    ContentView()
 }
