@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CVSection<Content: View>: View {
+struct SideColumnCVSection<Content: View>: View {
     let content: Content
     let sectionTitle: String
     
@@ -30,7 +30,7 @@ struct CVSection<Content: View>: View {
 }
 
 #Preview {
-    CVSection("Education") {
+    SideColumnCVSection("Education") {
         Text("This is a section in my CV.")
     }
         .frame(width: 400, height: 400)
