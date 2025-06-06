@@ -22,13 +22,9 @@ struct ExportCVView: View {
     
     @MainActor func render() -> URL {
         let renderer = ImageRenderer(content:
-                                        ContentView().environment(\.colorScheme, .dark)
-            .transformEnvironment(\.colorScheme){ _ in
-                
-            }
-            .background(Color.black.opacity(0.85)) // Ensure the background is clear
+                                        ContentView()
         )
-        renderer.scale = 4
+        renderer.scale = 4.0
         let url = URL.documentsDirectory.appending(path: "output.pdf")
         
         // 3: Start the rendering process
@@ -40,6 +36,7 @@ struct ExportCVView: View {
             guard let pdf = CGContext(url as CFURL, mediaBox: &box, nil) else {
                 return
             }
+            
             // 6: Start a new PDF page
             pdf.beginPDFPage(nil)
             

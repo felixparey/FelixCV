@@ -12,7 +12,6 @@ struct FelixCVApp: App {
     var body: some Scene {
         WindowGroup {
             ExportCVView()
-                .preferredColorScheme(.dark)
         }
     }
 }
