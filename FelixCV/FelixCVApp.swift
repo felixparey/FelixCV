@@ -11,7 +11,17 @@ import SwiftUI
 struct FelixCVApp: App {
     var body: some Scene {
         WindowGroup {
-            ExportCVView()
+            ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
+        .commands {
+                    CommandGroup(after: .pasteboard) { // Inserts after Cut/Copy/Paste
+                        Divider()
+                        Button("Export PDF") {
+                            ExportManager().saveAsPDF()
+                        }
+                        .keyboardShortcut("E", modifiers: [.command, .shift])
+                    }
+                }
     }
 }

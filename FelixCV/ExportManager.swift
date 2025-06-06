@@ -1,25 +1,13 @@
 //
-//  ExportCVView.swift
+//  ExportManager.swift
 //  FelixCV
 //
-//  Created by Felix Parey on 03/06/25.
+//  Created by Felix Parey on 06/06/25.
 //
 
 import SwiftUI
-import AppKit
 
-struct ExportCVView: View {
-    var body: some View {
-        ContentView()
-        Button {
-            saveAsPDF()
-        } label: {
-            Text("Export as PDF")
-                .padding()
-        }
-        
-    }
-    
+struct ExportManager {
     @MainActor func render() -> URL {
         let renderer = ImageRenderer(content:
                                         ContentView()
@@ -51,7 +39,7 @@ struct ExportCVView: View {
         return url
     }
     
-    func saveAsPDF() {
+    @MainActor func saveAsPDF() {
         let tempURL = render()
         
         let savePanel = NSSavePanel()
@@ -81,8 +69,4 @@ struct ExportCVView: View {
             }
         }
     }
-}
-
-#Preview {
-    ExportCVView()
 }
