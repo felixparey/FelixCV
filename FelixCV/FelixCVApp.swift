@@ -13,15 +13,16 @@ struct FelixCVApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowIdealSize(.fitToContent)
         .windowStyle(.hiddenTitleBar)
         .commands {
-                    CommandGroup(after: .pasteboard) { // Inserts after Cut/Copy/Paste
-                        Divider()
-                        Button("Export PDF") {
-                            ExportManager().saveAsPDF()
-                        }
-                        .keyboardShortcut("E", modifiers: [.command, .shift])
-                    }
+            CommandGroup(after: .pasteboard) {
+                Divider()
+                Button("Export PDF") {
+                    ExportManager().saveAsPDF()
                 }
+                .keyboardShortcut("E", modifiers: [.command, .shift])
+            }
+        }
     }
 }
