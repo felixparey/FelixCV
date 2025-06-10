@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    var withImage: Bool
     var body: some View {
         
         HStack(spacing: 10) {
-            SideColumnView()
-            MainColumnView()
+          //  SideColumnView()
+            MainColumnView(withImage: withImage)
         }
-        .padding()
+        .padding(20)
         .frame(width: 612, height: 792, alignment: .top)
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(withImage: true)
 }

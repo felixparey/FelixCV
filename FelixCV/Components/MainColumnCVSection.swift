@@ -37,5 +37,5 @@ struct MainColumnCVSection<Content: View>: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(withImage: true)
 }

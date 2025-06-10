@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ExportManager {
-    @MainActor func render() -> URL {
+    @MainActor func render(withImage: Bool) -> URL {
         let renderer = ImageRenderer(content:
-                                        ContentView()
+                                        ContentView(withImage: withImage)
         )
         renderer.scale = 4.0
         let url = URL.documentsDirectory.appending(path: "output.pdf")
@@ -39,8 +39,8 @@ struct ExportManager {
         return url
     }
     
-    @MainActor func saveAsPDF() {
-        let tempURL = render()
+    @MainActor func saveAsPDF(withImage: Bool) {
+        let tempURL = render(withImage: withImage)
         
         let savePanel = NSSavePanel()
         savePanel.title = "Save PDF"

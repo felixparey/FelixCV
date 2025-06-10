@@ -11,7 +11,7 @@ import SwiftUI
 struct FelixCVApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(withImage: true)
         }
         .windowIdealSize(.fitToContent)
         .windowStyle(.hiddenTitleBar)
@@ -19,9 +19,12 @@ struct FelixCVApp: App {
             CommandGroup(after: .pasteboard) {
                 Divider()
                 Button("Export PDF") {
-                    ExportManager().saveAsPDF()
+                    ExportManager().saveAsPDF(withImage: true)
                 }
                 .keyboardShortcut("E", modifiers: [.command, .shift])
+                Button("Export PDF without Image") {
+                    ExportManager().saveAsPDF(withImage: false)
+                }
             }
         }
     }
