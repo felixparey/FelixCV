@@ -21,7 +21,7 @@ struct MainColumnCVSection<Content: View>: View {
             Text(sectionTitle)
                 .textCase(.uppercase)
                 .foregroundStyle(.secondary)
-                .font(.title3)
+                .font(.system(size: 13))
                 .fontWeight(.bold)
                 .padding(.bottom, 2.5)
             content
