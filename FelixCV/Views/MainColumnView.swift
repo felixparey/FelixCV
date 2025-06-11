@@ -22,6 +22,7 @@ struct MainColumnView: View {
                             .font(.system(size: 11))
                     }
                 }
+                Spacer()
                 if withImage {
                     Image(.felix)
                         .resizable()

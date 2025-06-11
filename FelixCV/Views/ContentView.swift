@@ -15,7 +15,7 @@ struct ContentView: View {
           //  SideColumnView()
             MainColumnView(withImage: withImage)
         }
-        .padding(20)
+        .padding(24)
         .frame(width: 612, height: 792, alignment: .top)
     }
 }
