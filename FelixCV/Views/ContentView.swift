@@ -12,7 +12,6 @@ struct ContentView: View {
     var body: some View {
         
         HStack(spacing: 10) {
-          //  SideColumnView()
             MainColumnView(withImage: withImage)
         }
         .padding(24)
