@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct FelixCVApp: App {
+    
+    @State private var withImage: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(withImage: true)
+            ContentView(withImage: withImage)
         }
         .windowIdealSize(.fitToContent)
         .windowStyle(.hiddenTitleBar)
@@ -25,6 +28,12 @@ struct FelixCVApp: App {
                 Button("Export PDF without Image") {
                     ExportManager().saveAsPDF(withImage: false)
                 }
+            }
+            CommandGroup(after: .sidebar) {
+                Button("Show/Hide Image") {
+                    withImage.toggle()
+                }
+                Divider()
             }
         }
     }
