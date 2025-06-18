@@ -17,7 +17,6 @@ struct ContentView: View {
             HStack(spacing: 10) {
                 MainColumnView(withImage: withImage)
                 Spacer()
-                
                 SideColumnView()
             }
         }

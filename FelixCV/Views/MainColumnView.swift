@@ -36,9 +36,9 @@ struct MainColumnView: View {
                 
                 MainColumnSubheading("Apple Developer Academy - Student (2023-2024)")
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("• Going from problem statement to an Application multiple times over")
-                    Text("• Learned how to work in newly formed teams with people from all over the world")
-                    Text("• Designed apps in Figma and Sketch and coded in Xcode using Swift")
+                    BulletPoint("Going from problem statement to an Application multiple times over")
+                    BulletPoint("Learned how to work in newly formed teams with people from all over the world")
+                    BulletPoint("Designed apps in Figma and Sketch and coded in Xcode using Swift")
                 }
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
@@ -46,8 +46,8 @@ struct MainColumnView: View {
                 
                 MainColumnSubheading("Innerstädtisches Gymnasium Rostock - Abitur (2021-2023)")
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("• Advanced Course in Informatics, showing strong foundation in technology")
-                    Text("• Elected Class representative for two years, demonstrating leadership and organizational skills")
+                    BulletPoint("Advanced Course in Informatics, showing strong foundation in technology")
+                    BulletPoint("Elected Class representative for two years, demonstrating leadership and organizational skills")
                 }
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
@@ -57,9 +57,9 @@ struct MainColumnView: View {
                 MainColumnSubheading("Basic Strategy: Blackjack • App Store")
                 
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("• Published on the App Store with users in 30 different countries")
-                    Text("• Uncluttered design with a focus on usability and simplicity")
-                    Text("• Usage of latest technologies like SwiftUI, UserDefaults and StoreKit 2")
+                    BulletPoint("Published on the App Store with users in 30 different countries")
+                    BulletPoint("Uncluttered design with a focus on usability and simplicity")
+                    BulletPoint("Usage of latest technologies like SwiftUI, UserDefaults and StoreKit 2")
                 }
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
@@ -67,9 +67,9 @@ struct MainColumnView: View {
                 
                 MainColumnSubheading("Drawing Competition • TestFlight")
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("• Winning project of the 2025 Swift Student Challenge")
-                    Text("• Usage of PencilKit, RealityKit, SwiftUI, CoreML")
-                    Text("• Contains self-trained Image Classification AI model trained through CreateML")
+                    BulletPoint("Winning project of the 2025 Swift Student Challenge")
+                    BulletPoint("Usage of PencilKit, RealityKit, SwiftUI, CoreML")
+                    BulletPoint("Contains self-trained Image Classification AI model trained through CreateML")
                 }
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
@@ -77,21 +77,21 @@ struct MainColumnView: View {
                 
                 MainColumnSubheading("Lotus")
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("• iPad app in collaboration with NGO Akanksha in India")
-                    Text("• Complex database structure with SwiftData for local caching and FileMaker for external database")
-                    Text("• Usage of MapKit for customized Navigation and Location Tracking")
+                    BulletPoint("iPad app in collaboration with NGO Akanksha in India")
+                   BulletPoint("Complex database structure with SwiftData for local caching and FileMaker for external database")
+                    BulletPoint("Usage of MapKit for customized Navigation and Location Tracking")
                 }
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
                 .padding(.bottom, 5)
                 
-//                MainColumnSubheading("Other Projects")
-//                VStack(alignment: .leading, spacing: 0) {
-//                    Text("• **Sleepot**: Helps you clear your mind before sleeping using on-device AI to detect problems")
-//                    Text("• **Duck Rescue**: 3D game for Apple Vision Pro with RealityKit and SwiftUI")
-//                }
-//                .fixedSize(horizontal: false, vertical: true)
-//                .font(.system(size: 10))
+                MainColumnSubheading("Other Projects")
+                VStack(alignment: .leading, spacing: 0) {
+                    BulletPoint("**Sleepot**: Helps you clear your mind before sleeping using on-device AI to detect problems")
+                    BulletPoint("**Duck Rescue**: 3D game for Apple Vision Pro with RealityKit and SwiftUI")
+                }
+                .fixedSize(horizontal: false, vertical: true)
+                .font(.system(size: 10))
             }
             
             
