@@ -10,59 +10,68 @@ import SwiftUI
 struct SideColumnView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Image(.felix)
-                .resizable()
-                .scaledToFit()
-                .clipShape(.rect(cornerRadius: 12.5))
             
-            Text("Felix Parey")
-                .font(.title)
-                .fontWeight(.bold)
-                .padding(.vertical, -10)
+            SideColumnCVSection("Contact") {
+                SideColumnSubheading("Telephone")
+                Text(verbatim: "+49 174 5467901")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+                SideColumnSubheading("E-Mail")
+                Text(verbatim: "contact@felixparey.com")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+                SideColumnSubheading("LinkedIn")
+                Text(verbatim: "linkedin.com/in/felix-parey/")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+                SideColumnSubheading("Website")
+                Text(verbatim: "felixparey.com")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+            }
             
-            SideColumnCVSection("Information") {
-                Group {
-                    VStack(alignment: .leading, spacing: 5) {
-                        Label("20 years old (2005)", systemImage: "calendar")
-                        Label("+49 174 5467901", systemImage: "phone.fill")
-                        Label {
-                            Text(verbatim: "felix.parey@icloud.com")
-                        } icon: {
-                            Image(systemName: "envelope.fill")
+            SideColumnCVSection("Skills") {
+                SideColumnSubheading("Apple Frameworks & APIs")
+                Text("SwiftUI, MapKit, SwiftData, CoreML, RealityKit, StoreKit, REST APIs, UIKit")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+                SideColumnSubheading("Developer Tools")
+                Text("Xcode, Git, GitHub, App Store Connect")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+                SideColumnSubheading("Design Tools")
+                    .font(.system(size: 10, weight: .bold))
+                Text("Figma, Sketch, Photoshop, Illustrator")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+                SideColumnSubheading("Project Management")
+                    .font(.system(size: 10, weight: .bold))
+                Text("Scrum, Agile Methodologies, Jira, Confluence")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+            }
+                        SideColumnCVSection("Languages") {
+                            VStack(alignment: .leading, spacing: 5) {
+                                Text("🇩🇪 **German** • Native")
+                                Text("🇺🇸 **English** • C1")
+                                Text("🇮🇹 **Italian** • B2")
+                            }
+                            .font(.system(size: 10))
                         }
-                    }
-                }
-                .font(.subheadline)
-            }
-            SideColumnCVSection("Languages") {
-                VStack(alignment: .leading, spacing: 5) {
-                    Text("🇩🇪 **German** • Native")
-                    Text("🇺🇸 **English** • C1")
-                    Text("🇮🇹 **Italian** • B2")
-                }
-                .font(.subheadline)
-            }
-            
-            SideColumnCVSection("Achievements") {
-                VStack(alignment: .leading, spacing: 5) {
-                    Text("Swift Student Challenge\nWinner (2025)")
-                    Text("App released on the App Store")
-                }
-            }
-            SideColumnCVSection("Interests") {
-                Group {
-                    VStack(alignment: .leading, spacing: 5) {
-                        Text("🎬 TV Shows and Movies")
-                        Text("🎹 Piano")
-                        Text("🎙️ Singing")
-                    }
-                }
-                .font(.subheadline)
-            }
+            //            SideColumnCVSection("Interests") {
+            //                Group {
+            //                    VStack(alignment: .leading, spacing: 5) {
+            //                        Text("🎬 TV Shows and Movies")
+            //                        Text("🎹 Piano")
+            //                        Text("🎙️ Singing")
+            //                    }
+            //                }
+            //                .font(.subheadline)
+            //            }
             Spacer()
         }
         .padding(10)
-        .background(.gray.opacity(0.2), in: .rect(cornerRadius: 15))
+       // .background(.gray.opacity(0.2), in: .rect(cornerRadius: 15))
         .frame(width: 170)
     }
 }

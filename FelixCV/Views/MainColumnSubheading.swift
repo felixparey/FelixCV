@@ -17,7 +17,7 @@ struct MainColumnSubheading: View {
     
     var body: some View {
         Text(text)
-            .font(.system(size: 11, weight: .semibold))
+            .font(.system(size: 10, weight: .semibold))
             .textCase(.uppercase)
     }
 }

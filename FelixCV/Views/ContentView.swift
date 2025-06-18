@@ -11,14 +11,21 @@ struct ContentView: View {
     var withImage: Bool
     var body: some View {
         
-        HStack(spacing: 10) {
-            MainColumnView(withImage: withImage)
+        VStack {
+            HeaderView()
+                .padding(.bottom)
+            HStack(spacing: 10) {
+                MainColumnView(withImage: withImage)
+                Spacer()
+                
+                SideColumnView()
+            }
         }
-        .padding(24)
+        .padding(30)
         .frame(width: 612, height: 792, alignment: .top)
     }
 }
 
 #Preview {
-    ContentView(withImage: true)
+    ContentView(withImage: false)
 }
