@@ -21,14 +21,14 @@ struct MainColumnView: View {
                         .clipShape(.rect(cornerRadius: 10))
                         .frame(height: 120)
                 }
-                
             }
             MainColumnCVSection("Education") {
                 MainColumnSubheading("Apple Developer Academy - PIER Student (2024-2025)")
                 VStack(alignment: .leading, spacing: 0) {
-                    BulletPoint("Worked in an Agile Team using Scrum with tools like Jira and Confluence")
-                    BulletPoint("Learned how to do proper Code Reviews and work on a project from a previous team")
+                    BulletPoint("Worked in an Agile Team in sprints using Scrum with tools like Jira and Confluence")
+                    BulletPoint("Worked on an iPad app, that was deployed and actively being used, for an NGO in India: The Akanksha Foundation")
                     BulletPoint("Gained Experience in working with external clients through meetings and a trip to India")
+                    BulletPoint("Deep understanding of SwiftData, connection to an external Database (FileMaker) and usage of MapKit for Navigation and Location Tracking")
                 }
                 .font(.system(size: 10))
                 .fixedSize(horizontal: false, vertical: true)
@@ -36,9 +36,10 @@ struct MainColumnView: View {
                 
                 MainColumnSubheading("Apple Developer Academy - Student (2023-2024)")
                 VStack(alignment: .leading, spacing: 0) {
-                    BulletPoint("Going from problem statement to an Application multiple times over")
+                    BulletPoint("Created multiple apps based on real-world problems following extensive research and applying human centered design")
                     BulletPoint("Learned how to work in newly formed teams with people from all over the world")
-                    BulletPoint("Designed apps in Figma and Sketch and coded in Xcode using Swift")
+                    BulletPoint("Used design tools like Figma and Sketch and gained experience in Swift Frameworks like RealityKit, CoreML, MapKit and SwiftData")
+                    BulletPoint("Practiced public speaking and presenting projects in front of an audience")
                 }
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
@@ -47,7 +48,7 @@ struct MainColumnView: View {
                 MainColumnSubheading("Innerstädtisches Gymnasium Rostock - Abitur (2021-2023)")
                 VStack(alignment: .leading, spacing: 0) {
                     BulletPoint("Advanced Course in Informatics, showing strong foundation in technology")
-                    BulletPoint("Elected Class representative for two years, demonstrating leadership and organizational skills")
+//                    BulletPoint("Elected Class representative for two years, demonstrating leadership and organizational skills")
                 }
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
@@ -75,19 +76,9 @@ struct MainColumnView: View {
                 .font(.system(size: 10))
                 .padding(.bottom, 5)
                 
-                MainColumnSubheading("Lotus")
-                VStack(alignment: .leading, spacing: 0) {
-                    BulletPoint("iPad app in collaboration with NGO Akanksha in India")
-                   BulletPoint("Complex database structure with SwiftData for local caching and FileMaker for external database")
-                    BulletPoint("Usage of MapKit for customized Navigation and Location Tracking")
-                }
-                .fixedSize(horizontal: false, vertical: true)
-                .font(.system(size: 10))
-                .padding(.bottom, 5)
-                
                 MainColumnSubheading("Other Projects")
                 VStack(alignment: .leading, spacing: 0) {
-                    BulletPoint("**Sleepot**: Helps you clear your mind before sleeping using on-device AI to detect problems")
+                    BulletPoint("**Sleepot**: uses on-device AI to extract problems from a message")
                     BulletPoint("**Duck Rescue**: 3D game for Apple Vision Pro with RealityKit and SwiftUI")
                 }
                 .fixedSize(horizontal: false, vertical: true)
