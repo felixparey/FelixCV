@@ -1,5 +1,3 @@
-// FelixCV
-
 FelixCV is a macOS application written in SwiftUI, designed to showcase the CV of Felix Parey. The app presents a modern, exportable resume directly on your Mac.
 
 ## Features
