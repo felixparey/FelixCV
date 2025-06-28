@@ -11,21 +11,25 @@ struct SideColumnView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             
-            SideColumnCVSection("Contact") {
-                SideColumnSubheading("Telephone")
-                Text(verbatim: "+49 174 5467901")
+            SideColumnCVSection("Contact & Links") {
+                SideColumnSubheading("Website")
+                Text(verbatim: "felixparey.com")
                     .font(.system(size: 10))
                     .padding(.bottom, 2)
-                SideColumnSubheading("E-Mail")
-                Text(verbatim: "contact@felixparey.com")
+                SideColumnSubheading("GitHub")
+                Text(verbatim: "github.com/felixparey")
                     .font(.system(size: 10))
                     .padding(.bottom, 2)
                 SideColumnSubheading("LinkedIn")
                 Text(verbatim: "linkedin.com/in/felix-parey/")
                     .font(.system(size: 10))
                     .padding(.bottom, 2)
-                SideColumnSubheading("Website")
-                Text(verbatim: "felixparey.com")
+                SideColumnSubheading("E-Mail")
+                Text(verbatim: "contact@felixparey.com")
+                    .font(.system(size: 10))
+                    .padding(.bottom, 2)
+                SideColumnSubheading("Telephone")
+                Text(verbatim: "+49 174 5467901")
                     .font(.system(size: 10))
                     .padding(.bottom, 2)
             }
