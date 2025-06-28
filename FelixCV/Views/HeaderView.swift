@@ -18,7 +18,7 @@ struct HeaderView: View {
                     .font(.system(size: 13, weight: .bold))
                     .padding(.bottom, 2.5)
                 Text(
-                    "Passionate iOS developer trained at the Apple Developer Academy in Naples and Winner of the 2025 Swift Student Challenge. Experienced in building intuitive, user-centered apps with modern Apple frameworks. Seeking to contribute my skills in Swift and SwiftUI to a forward-thinking team dedicated to creating impactful mobile experiences."
+                    "I love creating applications for Apple platforms, which I learned for 2 years at the Apple Developer Academy in Naples, developing multiple apps and working with an NGO, helping over 10.000 children in underprivileged communities in Mumbai, India. I won Apple's Swift Student Challenge in 2025 with an app that uses Machine Learning to deliver a fun experience. My wish is to contribute my skills in Swift and SwiftUI to a team that shares the same passion to develop high-quality apps centered around the user experience. My goal is to create apps that are not only functional but also enjoyable to use, while continuously learning and growing as a developer."
                 )
                 .fixedSize(horizontal: false, vertical: true)
                 .font(.system(size: 10))
