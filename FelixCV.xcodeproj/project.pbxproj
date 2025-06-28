@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4DC99B962E102ADC00168F99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4DC99B952E102ADC00168F99 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4D3173DD2DEB7A3900DD0FD8 /* FelixCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FelixCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC99B952E102ADC00168F99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		4D3173D42DEB7A3900DD0FD8 = {
 			isa = PBXGroup;
 			children = (
+				4DC99B952E102ADC00168F99 /* README.md */,
 				4D3173DF2DEB7A3900DD0FD8 /* FelixCV */,
 				4D3173DE2DEB7A3900DD0FD8 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC99B962E102ADC00168F99 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
