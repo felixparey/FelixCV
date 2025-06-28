@@ -35,7 +35,3 @@ struct SideColumnCVSection<Content: View>: View {
     }
         .frame(width: 400, height: 400)
 }
-
-#Preview {
-    ContentView(withImage: true)
-}

@@ -10,30 +10,18 @@ import SwiftUI
 @main
 struct FelixCVApp: App {
     
-    @State private var withImage: Bool = false
-    
     var body: some Scene {
         WindowGroup {
-            ContentView(withImage: withImage)
+            ContentView()
         }
         .windowIdealSize(.fitToContent)
         .windowStyle(.hiddenTitleBar)
         .commands {
-            CommandGroup(after: .pasteboard) {
-                Divider()
+            CommandGroup(after: .saveItem) {
                 Button("Export PDF") {
-                    ExportManager().saveAsPDF(withImage: true)
+                    ExportManager().saveAsPDF()
                 }
                 .keyboardShortcut("E", modifiers: [.command, .shift])
-                Button("Export PDF without Image") {
-                    ExportManager().saveAsPDF(withImage: false)
-                }
-            }
-            CommandGroup(after: .sidebar) {
-                Button("Show/Hide Image") {
-                    withImage.toggle()
-                }
-                Divider()
             }
         }
     }

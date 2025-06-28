@@ -9,19 +9,8 @@ import SwiftUI
 
 struct MainColumnView: View {
     
-    var withImage: Bool
-    
     var body: some View {
         VStack(alignment: .leading) {
-            HStack {
-                if withImage {
-                    Image(.felix)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .clipShape(.rect(cornerRadius: 10))
-                        .frame(height: 120)
-                }
-            }
             MainColumnCVSection("Education") {
                 MainColumnSubheading("Apple Developer Academy - PIER Student (2024-2025)")
                 VStack(alignment: .leading, spacing: 0) {
@@ -92,5 +81,5 @@ struct MainColumnView: View {
 }
 
 #Preview {
-    ContentView(withImage: false)
+    MainColumnView()
 }
