@@ -26,8 +26,8 @@ struct ContentView: View {
                 }
                 .font(.system(size: 9))
         }
-        .padding(30)
-        .frame(width: 612, height: 792, alignment: .top)
+        .padding(40)
+        .frame(width: 630, height: 891, alignment: .top)
     }
 }
 

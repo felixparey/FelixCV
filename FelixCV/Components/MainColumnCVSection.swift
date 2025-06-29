@@ -9,9 +9,9 @@ import SwiftUI
 
 struct MainColumnCVSection<Content: View>: View {
     let content: Content
-    let sectionTitle: String
+    let sectionTitle: LocalizedStringKey
     
-    init(_ sectionTitle: String, @ViewBuilder content: () -> Content) {
+    init(_ sectionTitle: LocalizedStringKey, @ViewBuilder content: () -> Content) {
         self.sectionTitle = sectionTitle
         self.content = content()
     }
@@ -22,7 +22,7 @@ struct MainColumnCVSection<Content: View>: View {
                 .textCase(.uppercase)
                 .foregroundStyle(.secondary)
                 .font(.system(size: 13))
-                .fontWeight(.bold)
+                .fontWeight(.heavy)
                 .padding(.bottom, 2.5)
             content
         }

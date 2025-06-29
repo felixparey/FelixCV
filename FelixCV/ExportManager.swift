@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ExportManager {
+    
+    var languageManager: LanguageManager
+    
     @MainActor func render() -> URL {
         let renderer = ImageRenderer(content:
                                         ContentView()
+            .environment(\.locale, languageManager.locale)
         )
         renderer.scale = 4.0
         let url = URL.documentsDirectory.appending(path: "output.pdf")

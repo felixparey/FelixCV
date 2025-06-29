@@ -1,0 +1,518 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "**Duck Rescue**: 3D game for Apple Vision Pro with RealityKit and SwiftUI" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Duck Rescue**: 3D-Spiel für Apple Vision Pro mit RealityKit und SwiftUI"
+          }
+        }
+      }
+    },
+    "**English** • C1" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Englisch** • C1"
+          }
+        }
+      }
+    },
+    "**German** • Native" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Deutsch** • Muttersprache"
+          }
+        }
+      }
+    },
+    "**Italian** • B2" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Italienisch** • B2"
+          }
+        }
+      }
+    },
+    "**Sleepot**: uses on-device AI to extract problems from a message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Sleepot**: nutzt On-Device-KI, um Probleme aus einer Nachricht zu extrahieren"
+          }
+        }
+      }
+    },
+    "•" : {
+      "shouldTranslate" : false
+    },
+    "Advanced Course in Informatics, showing strong foundation in technology" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortgeschrittener Informatikkurs, der ein starkes technologisches Fundament zeigt"
+          }
+        }
+      }
+    },
+    "Apple Developer Academy - PIER Student (2024-2025)" : {
+      "shouldTranslate" : false
+    },
+    "Apple Developer Academy - Student (2023-2024)" : {
+      "shouldTranslate" : false
+    },
+    "Apple Frameworks & APIs" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple-Frameworks & APIs"
+          }
+        }
+      }
+    },
+    "Basic Strategy: Blackjack • App Store" : {
+      "shouldTranslate" : false
+    },
+    "Contact & Links" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt & Links"
+          }
+        }
+      }
+    },
+    "Contains self-trained Image Classification AI model trained through CreateML" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthält ein selbst trainiertes KI-Modell zur Bilderkennung, erstellt mit CreateML"
+          }
+        }
+      }
+    },
+    "Created multiple apps based on real-world problems following extensive research and applying human centered design" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellte mehrere Apps basierend auf realen Problemen nach intensiver Recherche und Anwendung nutzerzentrierten Designs"
+          }
+        }
+      }
+    },
+    "Deep understanding of SwiftData, connection to an external Database (FileMaker) and usage of MapKit for Navigation and Location Tracking" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiefes Verständnis von SwiftData, Anbindung an eine externe Datenbank (FileMaker) und Nutzung von MapKit für Navigation"
+          }
+        }
+      }
+    },
+    "Design Tools" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design-Tools"
+          }
+        }
+      }
+    },
+    "Developer Tools" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwicklungs-Tools"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        }
+      }
+    },
+    "Drawing Competition • TestFlight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drawing Competition • TestFlight"
+          }
+        }
+      }
+    },
+    "E-Mail" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-Mail"
+          }
+        }
+      }
+    },
+    "Education" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausbildung"
+          }
+        }
+      }
+    },
+    "Export PDF" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PDF exportieren"
+          }
+        }
+      }
+    },
+    "Felix Parey" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Felix Parey"
+          }
+        }
+      }
+    },
+    "Figma, Sketch, Photoshop, Illustrator" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Figma, Sketch, Photoshop, Illustrator"
+          }
+        }
+      }
+    },
+    "Gained Experience in working with external clients through meetings and a trip to India" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammelte Erfahrung in der Zusammenarbeit mit externen Partnern durch Meetings und eine Reise nach Indien"
+          }
+        }
+      }
+    },
+    "GitHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub"
+          }
+        }
+      }
+    },
+    "I authorize the processing of personal data contained within my CV, according to GDPR (EU) 2016/679, Article 6.1(a)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich erlaube die Verarbeitung der in meinem Lebenslauf enthaltenen personenbezogenen Daten gemäß DSGVO (EU) 2016/679, Artikel 6.1(a)"
+          }
+        }
+      }
+    },
+    "I love creating applications for Apple platforms, which I learned for 2 years at the Apple Developer Academy in Naples, developing multiple apps and working with an NGO, helping over 10.000 children in underprivileged communities in Mumbai, India. I won Apple's Swift Student Challenge in 2025 with an app that uses Machine Learning to deliver a fun experience. My wish is to contribute my skills in Swift and SwiftUI to a team that shares the same passion to develop high-quality apps centered around the user experience. My goal is to create apps that are not only functional but also enjoyable to use, while continuously learning and growing as a developer." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich liebe es, Anwendungen für Apple-Plattformen zu entwickeln, was ich zwei Jahre lang an der Apple Developer Academy in Neapel gelernt habe. Dabei habe ich mehrere Apps entwickelt und mit einer NGO zusammengearbeitet, die über 10.000 Kindern in benachteiligten Gemeinden in Mumbai, Indien, hilft. Ich gewann 2025 die Swift Student Challenge von Apple mit einer App, die Machine Learning für ein unterhaltsames Erlebnis nutzt. Mein Wunsch ist es, meine Fähigkeiten in Swift und SwiftUI in ein Team einzubringen, das dieselbe Leidenschaft für qualitativ hochwertige, benutzerzentrierte Apps teilt. Mein Ziel ist es, Apps zu entwickeln, die nicht nur funktional, sondern auch angenehm zu bedienen sind – und dabei ständig zu lernen und mich als Entwickler weiterzuentwickeln."
+          }
+        }
+      }
+    },
+    "Innerstädtisches Gymnasium Rostock - Abitur (2021-2023)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innerstädtisches Gymnasium Rostock - Abitur (2021-2023)"
+          }
+        }
+      }
+    },
+    "iOS DEVELOPER" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS-ENTWICKLER"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprache"
+          }
+        }
+      }
+    },
+    "Languages" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprachen"
+          }
+        }
+      }
+    },
+    "Learned how to work in newly formed teams with people from all over the world" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelernt, in neu gebildeten Teams mit Menschen aus aller Welt zu arbeiten"
+          }
+        }
+      }
+    },
+    "LinkedIn" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LinkedIn"
+          }
+        }
+      }
+    },
+    "Other Projects" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andere Projekte"
+          }
+        }
+      }
+    },
+    "Practiced public speaking and presenting projects in front of an audience" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geübt, Projekte vor Publikum zu präsentieren und öffentlich zu sprechen"
+          }
+        }
+      }
+    },
+    "Project Management" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projektmanagement"
+          }
+        }
+      }
+    },
+    "Published on the App Store with users in 30 different countries" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im App Store veröffentlicht mit Nutzern in 30 verschiedenen Ländern"
+          }
+        }
+      }
+    },
+    "Recent Projects" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Projekte"
+          }
+        }
+      }
+    },
+    "Scrum, Agile Methodologies, Jira, Confluence" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrum, agile Methoden, Jira, Confluence"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        }
+      }
+    },
+    "Skills" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fähigkeiten"
+          }
+        }
+      }
+    },
+    "SwiftUI, MapKit, SwiftData, CoreML, RealityKit, StoreKit, REST APIs, UIKit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI, MapKit, SwiftData, CoreML, RealityKit, StoreKit, REST APIs, UIKit"
+          }
+        }
+      }
+    },
+    "Telephone" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telefon"
+          }
+        }
+      }
+    },
+    "This CV was written entirely in SwiftUI and the source code is available on GitHub." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Lebenslauf wurde vollständig in SwiftUI geschrieben und der Quellcode ist auf GitHub verfügbar."
+          }
+        }
+      }
+    },
+    "Uncluttered design with a focus on usability and simplicity" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersichtliches Design mit Fokus auf Benutzerfreundlichkeit und Einfachheit"
+          }
+        }
+      }
+    },
+    "Usage of latest technologies like SwiftUI, UserDefaults and StoreKit 2" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwendung modernster Technologien wie SwiftUI und StoreKit 2"
+          }
+        }
+      }
+    },
+    "Usage of PencilKit, RealityKit, SwiftUI, CoreML" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwendung von PencilKit, RealityKit, SwiftUI und CoreML"
+          }
+        }
+      }
+    },
+    "Used design tools like Figma and Sketch and gained experience in Swift Frameworks like RealityKit, CoreML, MapKit and SwiftData" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwendete Design-Tools wie Figma und Sketch und sammelte Erfahrung mit Swift-Frameworks wie RealityKit, CoreML, MapKit und SwiftData"
+          }
+        }
+      }
+    },
+    "Website" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Website"
+          }
+        }
+      }
+    },
+    "Winning project of the 2025 Swift Student Challenge" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gewinnerprojekt der Swift Student Challenge 2025"
+          }
+        }
+      }
+    },
+    "Worked in an Agile Team in sprints using Scrum with tools like Jira and Confluence" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arbeitete in einem agilen Team in Sprints mit Scrum und Tools wie Jira und Confluence"
+          }
+        }
+      }
+    },
+    "Worked on an iPad app, that was deployed and actively being used, for an NGO in India: The Akanksha Foundation" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arbeitete an einer iPad-App für eine NGO in Indien – The Akanksha Foundation –, die bereitgestellt und aktiv genutzt wird"
+          }
+        }
+      }
+    },
+    "Xcode, Git, GitHub, App Store Connect" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xcode, Git, GitHub, App Store Connect"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

@@ -9,9 +9,9 @@ import SwiftUI
 
 struct MainColumnSubheading: View {
     
-    var text: String
+    var text: LocalizedStringKey
     
-    init(_ text: String) {
+    init(_ text: LocalizedStringKey) {
         self.text = text
     }
     

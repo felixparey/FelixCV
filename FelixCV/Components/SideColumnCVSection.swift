@@ -9,9 +9,9 @@ import SwiftUI
 
 struct SideColumnCVSection<Content: View>: View {
     let content: Content
-    let sectionTitle: String
+    let sectionTitle: LocalizedStringKey
     
-    init(_ sectionTitle: String, @ViewBuilder content: () -> Content) {
+    init(_ sectionTitle: LocalizedStringKey, @ViewBuilder content: () -> Content) {
         self.sectionTitle = sectionTitle
         self.content = content()
     }
